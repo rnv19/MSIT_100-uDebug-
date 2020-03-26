@@ -1,6 +1,4 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
@@ -18,13 +16,11 @@ public class Ants{
         while (cases-- > 0) {
             // String[] str = sc.nextLine().split(" ");
             int poleLength = sc.nextInt();
-            int noOfAnts = sc.nextInt();
             sc.nextLine();
             String[] str = sc.nextLine().split(" ");
             // System.out.println(Arrays.toString(str));
             // int[] min = new int[noOfAnts];
             List<Integer> min = new ArrayList<>();
-            int size = 0;
             for (String s : str) {
                 int temp = Integer.parseInt(s);
                 int temp1 = temp - 0;
